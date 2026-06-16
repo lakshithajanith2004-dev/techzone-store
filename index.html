@@ -11,7 +11,7 @@
             margin: 20px;
         }
         header {
-            background-color: #0d233a;
+            background-color: #2b28db;
             color: white;
             padding: 20px;
             text-align: center;
@@ -86,6 +86,24 @@
             color: white;
             margin-top: 30px;
         }
+        .buy-btn {
+            background-color: #6eaff1; 
+            color: rgb(187, 212, 255);
+            border: none;
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+            transition:background-color 0.3s;
+            display: inline-block ;
+       }
+
+       .buy-btn:hover {
+
+            background-color: #096dd0; 
+       }
     </style>
 </head>
 <body>
@@ -105,10 +123,10 @@
         </ul>
     </nav>
 
-    <div class="promo-box">
-        <h2>⚡ Special Weekly Offers & New Arrivals ⚡</h2>
-        <p><mark>Mega Deal:</mark> Enjoy an exclusive 15% discount on all brand new Gaming Gear! Plus, explore our newly arrived next-gen Smartwatches below.</p>
-    </div>
+     <div style="text-align: center; margin: 20px 0;">
+       <img src="images/w2.jpg" alt="Gaming Gear Mega Deal" style="width: 100%; max-width: 1200px; border-radius: 8px; box-shadow: 0 4px 15px blueviolet;">
+     </div>
+    
 
     <div id="smartphones" class="category-block">
         <h3 class="category-heading">1. Smartphones</h3>
@@ -117,29 +135,32 @@
             <img src="images/apple.jpg" alt="Apple iPhone 17" class="product-image" width="240">
             <div class="product-details">
                 <h4>Apple iPhone 17 Pro Max 1TB with Apple Care </h4>
-
                 <p>Features an immersive display with an advanced multi-lens camera layout and long-lasting performance.</p>
-                <p><strong>Price:</strong> <span class="price-tag">LKR 589,000</span></p>
+                <p><strong>Price: </strong><del style="color: rgb(32, 5, 85);">LKR 589,000</del> <span class="Price-tag" style="color:rgb(185, 16, 16);">LKR 550,000</span></p>
                 <p><strong>Availability:</strong> <span class="instock">In Stock</span></p>
+                <button class="buy-btn">Buy Now</button>
             </div>
         </div>
         
         <div class="product-item">
+             <img src="images/infinix.webp" alt="Infinix" class="product-image" width="240">
             <div class="product-details">
                 <h4>Infinix Hot 50i </h4>
-                <img src="images/infinix.webp" alt="Infinix" class="product-image" width="240">
-                <p>A heavy-duty smartpho-fast 5G connectivity speeds.</p>
+                <p>A heavy-duty smartphone-fast 5G connectivity speeds.</p>
                 <p><strong>Price:</strong> <span class="price-tag">LKR 380,000</span></p>
                 <p><strong>Availability:</strong> <span class="instock">In Stock</span></p>
+                <button class="buy-btn">Buy Now</button>
             </div>
         </div>
         
         <div class="product-item">
-             <img src="images/phone3.png" alt="samsung galaxy" class="product-image" with="0">
+             <img src="images/phone3.png" alt="samsung galaxy" class="product-image" width="240">
             <div class="product-details">
                 <h4>Samsung Galaxy A57 5G</h4>
-                <p><strong>Price:</strong> <span class="price-tag">LKR 138,000</span></p>
+                 <p>Samsung Galaxy A57 5G 8GB RAM,256GB,Triple camer.</p>
+                <p><strong>price: </strong><del style="color: rgb(32, 5, 85);">LKR 138,000</del> <span class="price-tag" style="color:rgb(185, 16, 16);">LKR 130,000</span></p>
                 <p><strong>Availability:</strong> <span class="instock">Out of Stock</span></p>
+                <button class="buy-btn">Buy Now</button>
             </div>
         </div>
     </div>
@@ -149,11 +170,12 @@
         
         <div class="product-item">
             <img src="images/l1.jpg" alt="hp laptop" class="product-image" width="240">
-             <h4>HP Stream 14 Laptop</h4>
-            <div class="product-details">
+             <div class="product-details">
+                <h4>HP Stream 14 Laptop</h4>
                 <p>Super lightweight premium aluminum body laptop designed for modern university students and professional office operations.</p>
                 <p><strong>Price:</strong> <span class="price-tag">LKR 105,000</span></p>
                 <p><strong>Availability:</strong> <span class="instock">In Stock</span></p>
+                <button class="buy-btn">Buy Now</button>
             </div>
         </div>
         
@@ -162,8 +184,9 @@
             <div class="product-details">
                 <h4>ASUS ExpertBook B1503</h4>
                 <p>Intel Core 5 120U 14th Gen | 8GB RAM | 512GB SSD | Brand New Business Laptop</p>
-                <p><strong>Price:</strong> <span class="price-tag">LKR 220,000</span></p>
+                <p><strong>Price: </strong><del style="color: rgb(32, 5, 85);">LKR 220,000</del> <span class="price-tag" style="color:rgb(185, 16, 16);">LKR 210,000</span></p>
                 <p><strong>Availability:</strong> <span class="instock">In Stock</span></p>
+                <button class="buy-btn">Buy Now</button>
             </div>
         </div>
         
@@ -172,8 +195,9 @@
             <div class="product-details">
                 <h4>MacBook Pro M4 Pro -14 inch </h4>
                 <p>14-core CPU and 20-core GPU 24GB,1TB</p>
-                <p><strong>Price:</strong> <span class="price-tag">LKR 700,000</span></p>
+                <p><strong>Price: </strong><del style="color: rgb(32, 5, 85);">LKR 700,000</del> <span class="price-tag" style="color:rgb(185, 16, 16);">LKR 690,000</span></p>
                 <p><strong>Availability:</strong> <span class="instock">Out of Stock</span></p>
+                <button class="buy-btn">Buy Now</button>
             </div>
         </div>
     </div>
@@ -188,6 +212,7 @@
                 <p>Over-ear premium studio headphones offering high-fidelity deep audio profiles and wireless passive noise cancellation.</p>
                 <p><strong>Price:</strong> <span class="price-tag">LKR 40,000</span></p>
                 <p><strong>Availability:</strong> <span class="instock">In Stock</span></p>
+                <button class="buy-btn">Buy Now</button>
             </div>
         </div>
         
@@ -198,6 +223,7 @@
                 <p>True wireless sweat-proof earbuds utilizing touch gesture controls and clear high-definition voice call microphones.</p>
                 <p><strong>Price:</strong> <span class="price-tag">LKR 13,900</span></p>
                 <p><strong>Availability:</strong> <span class="instock">In Stock</span></p>
+                <button class="buy-btn">Buy Now</button>
             </div>
         </div>
         
@@ -206,8 +232,9 @@
             <div class="product-details">
                 <h4>Juke Bar 10000 (1100W) Soundbar</h4>
                 <p>Sleek and compact home theater soundbar delivering clear cinema surround sound with stable Bluetooth support.</p>
-                <p><strong>Price:</strong> <span class="price-tag">LKR 29,000</span></p>
+                <p><strong>Price: </strong><del style="color: rgb(32, 5, 85);">LKR 29,000</del> <span class="price-tag" style="color:rgb(185, 16, 16);">LKR 27,000</span></p>
                 <p><strong>Availability:</strong> <span class="instock">In Stock</span></p>
+                <button class="buy-btn">Buy Now</button>
             </div>
         </div>
     </div>
@@ -222,6 +249,7 @@
                 <p>1.75inch Large TFT touch screen, Multisports modes, IP68 Life waterproof, Colour subject to availability, 3 Months Warranty</p>
                 <p><strong>Price:</strong> <span class="price-tag">LKR 17,000</span></p>
                 <p><strong>Availability:</strong> <span class="instock">In Stock</span></p>
+                <button class="buy-btn">Buy Now</button>
             </div>
         </div>
         
@@ -232,6 +260,7 @@
                 <p>Classic luxury stainless-steel smartwatch face configured with an AMOLED always-on display panel and calling functions.</p>
                 <p><strong>Price:</strong> <span class="price-tag">LKR 30,000</span></p>
                 <p><strong>Availability:</strong> <span class="instock">In Stock</span></p>
+                <button class="buy-btn">Buy Now</button>
             </div>
         </div>
         
@@ -242,6 +271,7 @@
                 <p>Stylish and lightweight smartwatch with vivid display, Health monitoring including heart rate and sleep tracking, Multiple sports modes for fitness .</p>
                 <p><strong>Price:</strong> <span class="price-tag">LKR 8,700</span></p>
                 <p><strong>Availability:</strong> <span class="instock">Out of Stock</span></p>
+                <button class="buy-btn">Buy Now</button>
             </div>
         </div>
     </div>
@@ -256,6 +286,7 @@
                 <p>Mechanical keys offering instant click registry packaged with fully adjustable custom dynamic RGB color patterns.</p>
                 <p><strong>Price:</strong> <span class="price-tag">LKR 14,600</span></p>
                 <p><strong>Availability:</strong> <span class="instock">In Stock</span></p>
+                <button class="buy-btn">Buy Now</button>
             </div>
         </div>
         
@@ -266,6 +297,7 @@
                 <p>Ergonomically designed fast-tracking optical gaming mouse built with dual side programmable key binds.</p>
                 <p><strong>Price:</strong> <span class="price-tag">LKR 3,900</span></p>
                 <p><strong>Availability:</strong> <span class="instock">In Stock</span></p>
+                <button class="buy-btn">Buy Now</button>
             </div>
         </div>
         
@@ -276,12 +308,19 @@
                 <p>High-back full cushion setup containing memory foam headrests to ease stress during intense online sessions.</p>
                 <p><strong>Price:</strong> <span class="price-tag">LKR 15,000</span></p>
                 <p><strong>Availability:</strong> <span class="instock">In Stock</span></p>
+                <button class="buy-btn">Buy Now</button>
             </div>
         </div>
     </div>
 
-    <footer>
-        <p>&copy; 2026 TechZone Gadget Store. Registered Coursework Project Hub.</p>
+    <div style="background-color:greenyellow; padding: 20px; text-align: center; margin-top: 30px; border-top: 2px solid whitesmoke;">
+    <h4 style="color:white; margin-bottom: 10px;">Contact Us</h4>
+    <p style="margin: 5px 0;">📍 <strong>Location:</strong> Main Street, Gall, Sri Lanka</p>
+    <p style="margin: 5px 0;">📞 <strong>Phone:</strong> 077-4567890 | ✉️ <strong>Email:</strong> info@techzone.lk</p>
+</div>
+
+<footer>
+        <p>&copy; 2026 TechZone Gadget Store. All Right Reserved.</p>
     </footer>
 
 </body>
