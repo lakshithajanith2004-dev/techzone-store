@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TechZone Gadget Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #222222;
+            margin: 20px;
+        }
+        header {
+            background-color: #0d233a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #1b365d;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .promo-box {
+            background-color: #fff3cd;
+            border: 2px dashed #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .category-block {
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+        .category-heading {
+            color: #0d233a;
+            border-bottom: 2px solid #0d233a;
+            padding-bottom: 5px;
+            margin-top: 0;
+        }
+        .product-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #f1f5f9;
+            border-left: 5px solid #1b365d;
+            display: flex;
+            align-items: start;
+        }
+        .product-image {
+            margin-right: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .product-details {
+            flex: 1;
+        }
+        .price-tag {
+            color: #2e7d32;
+        }
+        .instock {
+            color: green;
+        }
+        .outstock {
+            color: red;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #0d233a;
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>TechZone Gadget Store</h1>
+        <p>Your Ultimate Destination for the Best and Latest Tech and Electronics</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#smartphones">Smartphones</a></li>
+            <li><a href="#laptops">Laptops</a></li>
+            <li><a href="#audio">Audio & Headphones</a></li>
+            <li><a href="#smartwatches">Smartwatches</a></li>
+            <li><a href="#gaming">Gaming Accessories</a></li>
+        </ul>
+    </nav>
+
+    <div class="promo-box">
+        <h2>⚡ Special Weekly Offers & New Arrivals ⚡</h2>
+        <p><mark>Mega Deal:</mark> Enjoy an exclusive 15% discount on all brand new Gaming Gear! Plus, explore our newly arrived next-gen Smartwatches below.</p>
+    </div>
+
+    <div id="smartphones" class="category-block">
+        <h3 class="category-heading">1. Smartphones</h3>
+        
+        <div class="product-item">
+            <img src="images/apple.jpg" alt="Apple iPhone 17" class="product-image" width="240">
+            <div class="product-details">
+                <h4>Apple iPhone 17 Pro Max 1TB with Apple Care </h4>
+
+                <p>Features an immersive display with an advanced multi-lens camera layout and long-lasting performance.</p>
+                <p><strong>Price:</strong> <span class="price-tag">LKR 589,000</span></p>
+                <p><strong>Availability:</strong> <span class="instock">In Stock</span></p>
+            </div>
+        </div>
+        
+        <div class="product-item">
+            <div class="product-details">
+                <h4>Infinix Hot 50i </h4>
+                <img src="images/infinix.webp" alt="Infinix" class="product-image" width="240">
+                <p>A heavy-duty smartpho-fast 5G connectivity speeds.</p>
+                <p><strong>Price:</strong> <span class="price-tag">LKR 380,000</span></p>
+                <p><strong>Availability:</strong> <span class="instock">In Stock</span></p>
+            </div>
+        </div>
+        
+        <div class="product-item">
+             <img src="images/phone3.png" alt="samsung galaxy" class="product-image" with="120">
+            <div class="product-details">
+                <h4>Samsung Galaxy A57 5G</h4>
+                <p><strong>Price:</strong> <span class="price-tag">LKR 138,000</span></p>
+                <p><strong>Availability:</strong> <span class="instock">Out of Stock</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="laptops" class="category-block">
+        <h3 class="category-heading">2. Laptops</h3>
+        
+        <div class="product-item">
+            <img src="images/l1.jpg" alt="hp laptop" class="product-image" width="240">
+             <h4>HP Stream 14 Laptop</h4>
+            <div class="product-details">
+                <p>Super lightweight premium aluminum body laptop designed for modern university students and professional office operations.</p>
+                <p><strong>Price:</strong> <span class="price-tag">LKR 105,000</span></p>
+                <p><strong>Availability:</strong> <span class="instock">In Stock</span></p>
+            </div>
+        </div>
+        
+        <div class="product-item">
+            <img src="images/l3.jpg" alt="asus laptop" class="product-image" width="240">
+            <div class="product-details">
+                <h4>ASUS ExpertBook B1503</h4>
+                <p>Intel Core 5 120U 14th Gen | 8GB RAM | 512GB SSD | Brand New Business Laptop</p>
+                <p><strong>Price:</strong> <span class="price-tag">LKR 220,000</span></p>
+                <p><strong>Availability:</strong> <span class="instock">In Stock</span></p>
+            </div>
+        </div>
+        
+        <div class="product-item">
+            <img src="images/l4.jpg" alt="MacBook Pro" class="product-image" width="240">
+            <div class="product-details">
+                <h4>MacBook Pro M4 Pro -14 inch </h4>
+                <p>14-core CPU and 20-core GPU 24GB,1TB</p>
+                <p><strong>Price:</strong> <span class="price-tag">LKR 700,000</span></p>
+                <p><strong>Availability:</strong> <span class="instock">Out of Stock</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="audio" class="category-block">
+        <h3 class="category-heading">3. Audio & Headphones</h3>
+        
+        <div class="product-item">
+            <img src="images/a1.jpg" alt="Sonic Pro Headphones" class="product-image" width="240">
+            <div class="product-details">
+                <h4>Sonic Pro Headphones</h4>
+                <p>Over-ear premium studio headphones offering high-fidelity deep audio profiles and wireless passive noise cancellation.</p>
+                <p><strong>Price:</strong> <span class="price-tag">LKR 40,000</span></p>
+                <p><strong>Availability:</strong> <span class="instock">In Stock</span></p>
+            </div>
+        </div>
+        
+        <div class="product-item">
+            <img src="images/a2.jpg" alt="jabra AirBuds" class="product-image" width="240">
+            <div class="product-details">
+                <h4>jabra AirBuds Elite 1</h4>
+                <p>True wireless sweat-proof earbuds utilizing touch gesture controls and clear high-definition voice call microphones.</p>
+                <p><strong>Price:</strong> <span class="price-tag">LKR 13,900</span></p>
+                <p><strong>Availability:</strong> <span class="instock">In Stock</span></p>
+            </div>
+        </div>
+        
+        <div class="product-item">
+            <img src="images/a3.jpg" alt="soundbar" class="product-image" width="240">
+            <div class="product-details">
+                <h4>Juke Bar 10000 (1100W) Soundbar</h4>
+                <p>Sleek and compact home theater soundbar delivering clear cinema surround sound with stable Bluetooth support.</p>
+                <p><strong>Price:</strong> <span class="price-tag">LKR 29,000</span></p>
+                <p><strong>Availability:</strong> <span class="instock">In Stock</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="smartwatches" class="category-block">
+        <h3 class="category-heading">4. Smartwatches & Wearables</h3>
+        
+        <div class="product-item">
+            <img src="images/s2.jpg" alt="N78 Smart Watch " class="product-image" width="240">
+            <div class="product-details">
+                <h4>N78 Smart Watch</h4>
+                <p>1.75inch Large TFT touch screen, Multisports modes, IP68 Life waterproof, Colour subject to availability, 3 Months Warranty</p>
+                <p><strong>Price:</strong> <span class="price-tag">LKR 17,000</span></p>
+                <p><strong>Availability:</strong> <span class="instock">In Stock</span></p>
+            </div>
+        </div>
+        
+        <div class="product-item">
+             <img src="images/s4.jpg" alt="WIWU SW02 Watch " class="product-image" width="240">
+            <div class="product-details">
+                <h4>WIWU SW02 Watch</h4>
+                <p>Classic luxury stainless-steel smartwatch face configured with an AMOLED always-on display panel and calling functions.</p>
+                <p><strong>Price:</strong> <span class="price-tag">LKR 30,000</span></p>
+                <p><strong>Availability:</strong> <span class="instock">In Stock</span></p>
+            </div>
+        </div>
+        
+        <div class="product-item">
+             <img src="images/s3.jpg" alt="Haylou Vibe Smart Watch " class="product-image" width="240">
+                <div class="product-details">
+                <h4>Haylou Vibe Smart Watch</h4>
+                <p>Stylish and lightweight smartwatch with vivid display, Health monitoring including heart rate and sleep tracking, Multiple sports modes for fitness .</p>
+                <p><strong>Price:</strong> <span class="price-tag">LKR 8,700</span></p>
+                <p><strong>Availability:</strong> <span class="instock">Out of Stock</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="gaming" class="category-block">
+        <h3 class="category-heading">5. Gaming Accessories</h3>
+        
+        <div class="product-item">
+            <img src="images/k1.png" alt=" Mechanical Keyboard" class="product-image" width="240">
+            <div class="product-details">
+                <h4>ONIKUMA G52 82 KEYS RGB LIGHTING WIRED MECHANICAL KEYBOARD</h4>
+                <p>Mechanical keys offering instant click registry packaged with fully adjustable custom dynamic RGB color patterns.</p>
+                <p><strong>Price:</strong> <span class="price-tag">LKR 14,600</span></p>
+                <p><strong>Availability:</strong> <span class="instock">In Stock</span></p>
+            </div>
+        </div>
+        
+        <div class="product-item">
+             <img src="images/k2.jpg" alt=" GAMING Mouse" class="product-image" width="240">
+            <div class="product-details">
+                <h4>POWERX RAPIDWAVE - U30 WIRED GAMING Mouse</h4>
+                <p>Ergonomically designed fast-tracking optical gaming mouse built with dual side programmable key binds.</p>
+                <p><strong>Price:</strong> <span class="price-tag">LKR 3,900</span></p>
+                <p><strong>Availability:</strong> <span class="instock">In Stock</span></p>
+            </div>
+        </div>
+        
+        <div class="product-item">
+             <img src="images/k3.jpg" alt=" GAMING chair" class="product-image" width="240">
+            <div class="product-details">
+                <h4>Green Soul Raptor 2.0 Racing Edition Gaming Chair</h4>
+                <p>High-back full cushion setup containing memory foam headrests to ease stress during intense online sessions.</p>
+                <p><strong>Price:</strong> <span class="price-tag">LKR 15,000</span></p>
+                <p><strong>Availability:</strong> <span class="instock">In Stock</span></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 TechZone Gadget Store. Registered Coursework Project Hub.</p>
+    </footer>
+
+</body>
+</html>
